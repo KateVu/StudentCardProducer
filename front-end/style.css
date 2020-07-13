@@ -1,0 +1,199 @@
+body{
+    font-size: 10px;
+}
+.table {
+    border: 1px solid grey;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 30px auto;
+    background: white;
+    font-size: 2.0em;
+    display: flex;
+    flex-direction: column;
+}
+.tableWithoutBorder {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 30px auto;
+    background: white;
+    font-size: 2.0em;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-family: Georgia;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.titleLeft{
+    font-family: Georgia;
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: bold;
+}
+.label {
+    display: flex;
+    width: 180px;
+    margin-top: 5px;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonrow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    text-align: center;
+}
+
+.columnshort {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.5;
+    flex-shrink: 1;
+    flex-basis: 0;
+    text-align: center;
+}
+.textField{
+    display: flex;
+    flex-grow: 1;
+    margin-top: 5px;
+}
+
+.textFieldSecond{
+    display: flex;
+    margin-top: 5px;
+    flex-grow: 0.8;
+
+}
+
+.textFieldShort{
+    display: flex;
+    width: 100px;
+    margin-right: 5px;
+}
+
+.button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    background: green;
+    color: white;
+}
+.buttonsmall {
+    background-color:green;
+    color:white;
+    font-size: 0.7em;
+}
+.message{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.result {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+.logoutMessage {
+    font-weight: bold;
+    font-size: large;
+}
+
+.tableAdmin{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px auto;
+    background: white;
+    font-size: 2.0em;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+th {
+    background-color: #9acd32;
+    height: 5px;
+}
+
+#cartTable{
+    width: 80%;
+}
+
+#catTable{
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.leftPanel {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.rightPanel {
+    padding: 50px;
+    display: grid;
+    grid-gap: 50px;
+    flex-grow: 5;
+}
+
+hr {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.studentCard0 {
+    grid-row-start:1;
+    grid-column-start:1;
+}
+
+.studentCard1 {
+    grid-row-start:1;
+    grid-column-start:2;
+}
