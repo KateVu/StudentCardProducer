@@ -16,6 +16,7 @@ application to produce student card in AWS Cloud using S3, Lambda, SNS, SQS
 <img src="https://github.com/KateVu/StudentCardProducer/blob/master/Images/get_all_images.png">
 
 •	<b>Interface description:</b>
+
 Create API “CardsQuery” in Amazon API Gateway
 -	Title: "CardsQuery"
 -	Description: call by static website, invoke lambda to get all images from S3
@@ -54,6 +55,7 @@ Lambda function “cardproducer-retrieve-s3-objects”
 <img src="https://github.com/KateVu/StudentCardProducer/blob/master/Images/create_new_student.png">
 
 •	<b>Interface description:</b>
+
 API “CreateNewStudent” 
 -	Title: " CreateNewStudent"
 -	Description: call by static website, invoke lambda to create new student 
