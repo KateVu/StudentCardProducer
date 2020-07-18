@@ -10,7 +10,7 @@ application to produce student card in AWS Cloud using S3, Lambda, SNS, SQS
 
 <img src="https://github.com/KateVu/StudentCardProducer/blob/master/Images/front_end.png">
 
-# Query all cards images
+# Query all card images
 •	<b>Diagram:</b>
 
 <img src="https://github.com/KateVu/StudentCardProducer/blob/master/Images/get_all_images.png">
