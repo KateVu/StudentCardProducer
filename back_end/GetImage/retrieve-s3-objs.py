@@ -1,6 +1,6 @@
 #author:			Thanh Phu Lai 
 #Modified by:	Kate(Quyen) Vu Thi Tu
-#id:  		   	102418320
+#id:  		   	
 #tute:    		2.30-4.30pm Tuesday
 
 from json import JSONEncoder
