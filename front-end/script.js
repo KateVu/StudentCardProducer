@@ -1,6 +1,6 @@
 /*
 * @author: Kate (Quyen) Vu Thi Tu
-* @SID: 102418320
+* @SID: 
 * handle script for client
 * */
 let errorMessage = "";
